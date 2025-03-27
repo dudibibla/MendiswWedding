@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "Heebo", sans-serif;
+}
+
+.body {
+    
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #333;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    padding-top: 20vh;
+    width: 100%;
+    text-align: center;
+    height: 95vh;
+}
+
+.container h1 {
+    font-size: 8vh;
+    color: #eed2a4;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 5vh;
+    color: #eed2a4;
+    margin-top: 2vh;
+}
+
+.timer {
+    font-size: 5em;
+    font-weight: bold;
+    color: #76441f;
+    background: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    padding: 4vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(118,68,31, 0.9);
+    margin-top: 25px;
+    text-align: center;
+    direction: rtl;
+}
+
+.footer {
+    padding: 10px;
+    font-size: 14px;
+    background-color: #76441f;
+    color: #fbefd5;
+    text-align: center;
+    width: 100%;
+}
+
+.hero {
+    background: linear-gradient(#0008, #0000), url(111.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    /* שלא יפריע ללחיצות */
+    z-index: 9999;
+    /* מעל כל התוכן */
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Mendi Timer",
+    "short_name": "Timer",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "screenshot-desktop.jpg",
+        "type": "image/png",
+        "sizes": "1920x1080",
+        "form_factor": "wide"
+      },
+      {
+        "src": "screenshot-mobile.jpg",
+        "type": "image/png",
+        "sizes": "1080x1920"
+      }
+    ]
+  }
+  
