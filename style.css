@@ -46,7 +46,7 @@
     display: inline-block;
     padding: 4vh;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(118,68,31, 0.9);
+    box-shadow: 4px 4px 20px rgba(118,68,31, 0.9);
     margin-top: 25px;
     text-align: center;
     direction: rtl;
@@ -77,4 +77,42 @@ canvas {
     /* שלא יפריע ללחיצות */
     z-index: 9999;
     /* מעל כל התוכן */
+}
+
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .container h1 {
+        font-size: 5vh; /* Smaller font size on mobile */
+    }
+
+    .container p {
+        font-size: 3vh; /* Smaller font size on mobile */
+    }
+
+    .timer {
+        font-size: 3em; /* Smaller timer on mobile */
+        padding: 2vh;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding-top: 10vh; /* Less padding on smaller screens */
+    }
+
+    .container h1 {
+        font-size: 4vh;
+    }
+
+    .container p {
+        font-size: 2.5vh;
+    }
+
+    .timer {
+        font-size: 2em;
+        padding: 1vh;
+        margin-top: 10px;
+    }
 }
